@@ -1,4 +1,4 @@
-#include "my_keyboard.dtsi" // The shared dtsi file is included in the overlay
+#include "venturi48.dtsi" // The shared dtsi file is included in the overlay
 
 // Label of the kscan node in the dtsi
 &kscan0 {
@@ -17,7 +17,7 @@
         , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
-        
+
 };
 
 &default_transform { // Offset of 6 because the left side has 6 columns
