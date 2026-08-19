@@ -1,8 +1,6 @@
-# No whitespace after the comma or in your part name!
-config VENTURI_LEFT
+config SHIELD_VENTURI_LEFT
     def_bool $(shields_list_contains,venturi_left)
 
-# No whitespace after the comma or in your part name!
-config VENTURI_RIGHT
+config SHIELD_VENTURI_RIGHT
     def_bool $(shields_list_contains,venturi_right)
     

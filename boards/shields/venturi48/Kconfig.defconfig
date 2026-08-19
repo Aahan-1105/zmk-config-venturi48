@@ -1,7 +1,6 @@
 if SHIELD_VENTURI_LEFT
 
-# Name must be less than 16 characters long!
-config ZMK_VENTURI48
+config ZMK_KEYBOARD_NAME
     default "Venturi48"
 
 config ZMK_SPLIT_ROLE_CENTRAL
@@ -9,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if VENTURI_LEFT || VENTURI_RIGHT
+if SHIELD_VENTURI_LEFT || SHIELD_VENTURI_RIGHT
 
 config ZMK_SPLIT
     default y
