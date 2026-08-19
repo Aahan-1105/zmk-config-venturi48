@@ -1,0 +1,13 @@
+file_format: "1"
+id: venturi48
+name: Venturi48
+type: shield
+url: https://github.com/Aahan-1105/venturi48/
+requires:
+  - nice_nano
+exposes:
+features:
+  - keys
+siblings:
+  - venturi_left
+  - venturi_right
